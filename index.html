@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+  <div align="center">
+    <h1>Aplicación 05</h1>
+  </div>
+  </div>
+
+  <div data-role="main" class="ui-content">
+ <div data-role="controlgroup" data-type="vertical" align="center">     
+   <input type="text" id="txtnombre" placeholder="Nombre" />
+       <a href="#datos" id="btndatos" class="ui-btn ui-icon-check ui-shadow ui-corner-all ui-btn-icon-right ui-btn-inline ">Siguiente </a>
+  </div>
+  </div>
+
+  <div data-role="footer">
+  <div align="center">
+    <h1>@Reyna</h1>
+  </div>
+ </div>  
+ </div>
+ <!-- Principal -->
+ 
+ <!-- datos -->
+ <div data-role="page" id="datos" >   
+  <div data-role="header">
+  <div align="center">
+    <h1>Aplicación 05</h1>
+  </div>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <div align="center">
+    <input type="number" id="txtpeso" placeholder="Peso" />
+     <input type="number" id="txttalla" placeholder="Talla" />
+            <a href="#resultado" id="btnresultado" class="ui-btn ui-icon-check ui-shadow ui-corner-all ui-btn-icon-right ui-btn-inline ">Siguiente </a>
+  </div>
+  </div>
+  
+
+  <div data-role="footer">
+  <div align="center">
+    <h1>@Reyna</h1>
+  </div>
+ </div>  
+ </div>
+ <!-- datos -->
+ 
+ <!-- resultado -->
+ <div data-role="page" id="resultado" >   
+  <div data-role="header">
+  <div align="center">
+    <h1>Aplicación 05</h1>
+  </div>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <h1>Resultado</h1>
+   
+    <div id="imc" style="color:#F9C">
+   <div align="center">
+  </div>
+</div>
+</div>
+</div>
+  <div data-role="footer">
+  <div align="center">
+    <h1>@Reyna</h1>
+  </div>
+ </div>  
+ </div>
+ <!-- resultado -->
+
+ </body>
+</html> 
